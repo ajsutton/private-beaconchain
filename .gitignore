@@ -1,0 +1,6 @@
+*.swp
+.idea
+/artemis/dist/artemis
+/pantheon/data
+/prysm/beaconchain/data
+/prysm/validator/data
