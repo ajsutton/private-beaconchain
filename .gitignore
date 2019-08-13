@@ -4,3 +4,7 @@
 /pantheon/data
 /prysm/beaconchain/data
 /prysm/validator/data
+/deposit/node_modules
+/artemis/artemis*.log
+/artemis/artemis.json
+/artemis/artemis.json.*
