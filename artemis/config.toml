@@ -7,7 +7,7 @@ networkMode = "mock"
 gossipProtocol = "floodsub"
 identity = "0x00"
 timer="QuartzTimer"
-networkInterface = "127.0.0.1"
+networkInterface = "0.0.0.0"
 port = 9000
 advertisedPort = 9000
 naughtinessPercentage = 0
@@ -15,8 +15,8 @@ naughtinessPercentage = 0
 [metrics]
 enabled = true
 port = 8008
-metricsNetworkInterface = "127.0.0.1"
-metricsCategories = [ "EVENTS" ]
+metricsNetworkInterface = "0.0.0.0"
+#metricsCategories = [ "EVENTS" ]
 
 [interop]
 active = false
@@ -32,12 +32,12 @@ inputFile = "validator_test_data.json"
 numValidators = 16
 numNodes = 1
 contractAddr = "0xdddddddddddddddddddddddddddddddddddddddd"
-nodeUrl = "http://localhost:8545"
+nodeUrl = "http://eth1:8545"
 
 [output]
-logPath = "."
+logPath = "/artemis/output/"
 logFile = "artemis.log"
-outputFile = "artemis.json"
+outputFile = "/artemis/output/artemis.json"
 providerType = "JSON"
 events = [ "TimeSeriesRecord", "Eth2Genesis", "Deposit" ]
 formatted = false
