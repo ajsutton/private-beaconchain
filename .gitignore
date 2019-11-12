@@ -1,7 +1,7 @@
 *.swp
 .idea
 /artemis/dist/artemis
-/pantheon/data
+/besu/data
 /prysm/beaconchain/data
 /prysm/validator/data
 /deposit/node_modules

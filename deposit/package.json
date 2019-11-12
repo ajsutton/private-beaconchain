@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "web3": "^1.2.1"
+    "web3": "^1.2.1",
+    "yaml": "^1.6.0"
   },
   "devDependencies": {},
   "scripts": {
