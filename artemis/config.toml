@@ -34,7 +34,7 @@ nodeUrl = "http://eth1:8545"
 [output]
 logPath = "/artemis/output/"
 logFile = "artemis.log"
-transitionRecordDir = "/tmp/artemis"
+transitionRecordDir = "/artemis/output"
 
 [database]
 startFromDisk = false
